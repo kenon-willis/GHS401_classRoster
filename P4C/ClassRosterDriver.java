@@ -1,23 +1,11 @@
-import java.util.ArrayList;
+
 
 public class ClassRosterDriver
    {
    public static void main()
       {
       // 1. Creating and printing ClassRoster    
-           Student a=new Student( "Super", "Man", 12, 1, 1, 1, 1, 1 );
-     Student b=new Student( "Silver", "Surfer", 11, 2, 2, 2, 2, 2  );
-     Student c=new Student( "Captain", "America", 12, 3, 3, 3, 3, 3  );
-     Student d=new Student( "Bat", "Man", 11, 4, 4, 4, 4, 4  );
-     Student f=new Student( "Black", "Panther", 11, 5, 5, 5, 5, 5  );
-     
-     ArrayList<Student> myList=new ArrayList<Student>();
-     myList.add(a);
-     myList.add(b);
-     myList.add(c);
-     myList.add(d);
-     myList.add(f);
-     
+         
 
       ClassRoster myPeriod1 = new ClassRoster( "AP Computer Science", myList );
       System.out.println( "Class Roster:\n" + myPeriod1 );
